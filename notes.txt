@@ -1,0 +1,29 @@
+
+rfc type :- generate automatic format               // use rlc in a component and see the magic happens
+
+Default Export (import Name from 'xyz';): 
+Named Export (import { Name } from 'xyz';): You import specific items 
+
+An <Outlet> should be used in parent route elements to render their child route elements. This allows nested UI to show up when child routes are rendered.
+
+IN CSS
+rem Vs px : jab hum browser ko enlarge-small karte hai to rem change ho jata hai par px can't
+rem : root element ke according which is html (10px(html) * 2rem == 20px) || in case of absence of font-size in root it picks from browser which is by default 16px
+em: parent container ko reference laike chalta hai
+
+For internal link you use <Link to={}/>
+but if link is external (outside website) use anchor tag
+
+
+vs-code shortcut
+1. ctrl + alt  : for linear select 
+2. ctrl + d : for word-wise selection
+3. click on line-number to select entire line
+4. ctrl + enter : into new line
+5. ctrl + shift + right : word wise selection
+6. ctrl + shift + l : to select all instances of word 
+7. shift + alt + up/down 
+8. alt + up/down
+9. alt + R/L : switch between files 
+10. shift + alt + f : format file
+
